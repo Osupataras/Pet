@@ -7,7 +7,7 @@ public class TemperatureConverter {
     public double convertTemp (double temperature, char convertTo){
         double newtemperature=0;
         if (convertTo == 'F'){
-            System.out.println("swТемпература должна быть конвертирована в Фарангейты");
+            System.out.println("swdТемпература должна быть конвертирована в Фарангейты");
             newtemperature=1.8*temperature+32;
             System.out.println(+temperature+" градусов,в фарангейтах это "+newtemperature);
         }
